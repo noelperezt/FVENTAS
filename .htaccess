@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^rpt-(.*)-(.*)$ app/reportes/vst/$1\.php?$2 [L]
